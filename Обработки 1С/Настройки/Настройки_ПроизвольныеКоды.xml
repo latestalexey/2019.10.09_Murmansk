@@ -1,0 +1,55 @@
+﻿<Structure xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Property name="ТаблицаПроизвольныхКодов">
+		<Value xsi:type="ValueTable">
+			<column>
+				<Name>ID_ПроизвольногоКода</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>40</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+			</column>
+			<column>
+				<Name>Наименование</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+			</column>
+			<column>
+				<Name>Описание</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+			</column>
+			<column>
+				<Name>ТекстПроизвольногоКода</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+			</column>
+			<row>
+				<Value xsi:type="xs:string">PCaf8c484a35ee45eeb8b3382577b64acb</Value>
+				<Value xsi:type="xs:string">Документ_СтатусСбораЗаказа</Value>
+				<Value xsi:type="xs:string"/>
+				<Value xsi:type="xs:string">Результат = ОбщегоНазначения.ПолучитьИмяЭлементаПеречисленияПоЗначению(СсылкаДокумент1С._СтатусСбораЗаказа);</Value>
+			</row>
+		</Value>
+	</Property>
+	<Property name="_ИмяРазделаНастройки_">
+		<Value xsi:type="xs:string">ПроизвольныеКоды_Выгрузка_ШапкаДокумента</Value>
+	</Property>
+</Structure>

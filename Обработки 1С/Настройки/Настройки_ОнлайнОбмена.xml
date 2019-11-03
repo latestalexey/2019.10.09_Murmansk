@@ -1,0 +1,350 @@
+﻿<Structure xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Property name="НастройкиОтборов">
+		<Value xsi:type="ValueTable">
+			<column>
+				<Name>Используется</Name>
+				<ValueType>
+					<Type>xs:boolean</Type>
+				</ValueType>
+				<Title>Используется</Title>
+			</column>
+			<column>
+				<Name>Название</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Название БП</Title>
+				<Width>53</Width>
+			</column>
+			<column>
+				<Name>Настройка</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>10</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Настройка</Title>
+				<Width>15</Width>
+			</column>
+			<column>
+				<Name>ТипИсходногоДокумента1С_Синоним</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>200</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Исходный документ 1С (источник)</Title>
+				<Width>40</Width>
+			</column>
+			<column>
+				<Name>ТипИсходногоДокумента1С</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>200</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Тип документа1С (источник)</Title>
+				<Width>3</Width>
+			</column>
+			<column>
+				<Name>ID_БизнесПроцесса</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>40</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>ID бизнес-процесса</Title>
+				<Width>3</Width>
+			</column>
+			<column>
+				<Name>НастройкаКомпоновщикаСтрокой</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Настройка компоновщика строкой</Title>
+				<Width>3</Width>
+			</column>
+			<column>
+				<Name>ВариантОтбора</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Вариант отбора</Title>
+				<Width>25</Width>
+			</column>
+			<column>
+				<Name>ID_ПроизвольногоОтбора</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>ID произвольного отбора</Title>
+				<Width>25</Width>
+			</column>
+			<row>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:string">Приёмка (на основании "Поступления товаров")</Value>
+				<Value xsi:type="xs:string">Настроить</Value>
+				<Value xsi:type="xs:string">Поступление товаров и услуг</Value>
+				<Value xsi:type="xs:string">ПоступлениеТоваровУслуг</Value>
+				<Value xsi:type="xs:string">BPbdd1225f-7612-4c61-85ab-41dabd40984c</Value>
+				<Value xsi:type="xs:string">{"#",3c72ff56-7e04-4385-bc03-92d4bd6c351c,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxmaWx0ZXI+
+DQoJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQk8
+bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Qn9GA0L7QstC10LTQtdC9PC9s
+ZWZ0Pg0KCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4N
+CgkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJ
+CTwvaXRlbT4NCgk8L2ZpbHRlcj4NCgk8ZGF0YVBhcmFtZXRlcnM+DQoJCTxkY3Nj
+b3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQk8
+ZGNzY29yOnBhcmFtZXRlcj7Qk9C70YPQsdC40L3QsNCe0YLQsdC+0YDQsDwvZGNz
+Y29yOnBhcmFtZXRlcj4NCgkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmRl
+Y2ltYWwiPjEwPC9kY3Njb3I6dmFsdWU+DQoJCTwvZGNzY29yOml0ZW0+DQoJPC9k
+YXRhUGFyYW1ldGVycz4NCjwvU2V0dGluZ3M+}
+}</Value>
+				<Value xsi:type="xs:string">Только конструктор</Value>
+				<Value xsi:type="xs:string"/>
+			</row>
+			<row>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:string">Приёмка (на основании "Заказа поставщику")</Value>
+				<Value xsi:type="xs:string">Настроить</Value>
+				<Value xsi:type="xs:string">Заказ поставщику</Value>
+				<Value xsi:type="xs:string">ЗаказПоставщику</Value>
+				<Value xsi:type="xs:string">BPe5f918b6-8c2c-471e-b5cf-4bd4eace381a</Value>
+				<Value xsi:type="xs:string">{"#",3c72ff56-7e04-4385-bc03-92d4bd6c351c,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxmaWx0ZXI+
+DQoJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQk8
+bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Qn9GA0L7QstC10LTQtdC9PC9s
+ZWZ0Pg0KCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4N
+CgkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJ
+CTwvaXRlbT4NCgk8L2ZpbHRlcj4NCgk8ZGF0YVBhcmFtZXRlcnM+DQoJCTxkY3Nj
+b3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQk8
+ZGNzY29yOnBhcmFtZXRlcj7Qk9C70YPQsdC40L3QsNCe0YLQsdC+0YDQsDwvZGNz
+Y29yOnBhcmFtZXRlcj4NCgkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmRl
+Y2ltYWwiPjEwPC9kY3Njb3I6dmFsdWU+DQoJCTwvZGNzY29yOml0ZW0+DQoJPC9k
+YXRhUGFyYW1ldGVycz4NCjwvU2V0dGluZ3M+}
+}</Value>
+				<Value xsi:type="xs:string">Только конструктор</Value>
+				<Value xsi:type="xs:string"/>
+			</row>
+			<row>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:string">Инвентаризация (на основании "Пересчета товаров")</Value>
+				<Value xsi:type="xs:string">Настроить</Value>
+				<Value xsi:type="xs:string">Инвентаризация товаров на складе</Value>
+				<Value xsi:type="xs:string">ИнвентаризацияТоваровНаСкладе</Value>
+				<Value xsi:type="xs:string">BP6a9bab6e-f3a1-4068-a985-4e481cbc5ca1</Value>
+				<Value xsi:type="xs:string">{"#",3c72ff56-7e04-4385-bc03-92d4bd6c351c,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxmaWx0ZXI+
+DQoJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQk8
+bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Qn9GA0L7QstC10LTQtdC9PC9s
+ZWZ0Pg0KCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4N
+CgkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJ
+CTwvaXRlbT4NCgk8L2ZpbHRlcj4NCgk8ZGF0YVBhcmFtZXRlcnM+DQoJCTxkY3Nj
+b3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQk8
+ZGNzY29yOnBhcmFtZXRlcj7Qk9C70YPQsdC40L3QsNCe0YLQsdC+0YDQsDwvZGNz
+Y29yOnBhcmFtZXRlcj4NCgkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmRl
+Y2ltYWwiPjEwPC9kY3Njb3I6dmFsdWU+DQoJCTwvZGNzY29yOml0ZW0+DQoJPC9k
+YXRhUGFyYW1ldGVycz4NCjwvU2V0dGluZ3M+}
+}</Value>
+				<Value xsi:type="xs:string">Только конструктор</Value>
+				<Value xsi:type="xs:string"/>
+			</row>
+			<row>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:string">Возврат товаров поставщику (На основании возврата)</Value>
+				<Value xsi:type="xs:string">Настроить</Value>
+				<Value xsi:type="xs:string">Возврат товаров поставщику</Value>
+				<Value xsi:type="xs:string">ВозвратТоваровПоставщику</Value>
+				<Value xsi:type="xs:string">BP465c7483-8507-4add-8cc4-7bde5875314c</Value>
+				<Value xsi:type="xs:string">{"#",3c72ff56-7e04-4385-bc03-92d4bd6c351c,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxmaWx0ZXI+
+DQoJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQk8
+bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Qn9GA0L7QstC10LTQtdC9PC9s
+ZWZ0Pg0KCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4N
+CgkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJ
+CTwvaXRlbT4NCgk8L2ZpbHRlcj4NCgk8ZGF0YVBhcmFtZXRlcnM+DQoJCTxkY3Nj
+b3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQk8
+ZGNzY29yOnBhcmFtZXRlcj7Qk9C70YPQsdC40L3QsNCe0YLQsdC+0YDQsDwvZGNz
+Y29yOnBhcmFtZXRlcj4NCgkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmRl
+Y2ltYWwiPjEwPC9kY3Njb3I6dmFsdWU+DQoJCTwvZGNzY29yOml0ZW0+DQoJPC9k
+YXRhUGFyYW1ldGVycz4NCjwvU2V0dGluZ3M+}
+}</Value>
+				<Value xsi:type="xs:string">Только конструктор</Value>
+				<Value xsi:type="xs:string"/>
+			</row>
+			<row>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:string">Перемещение (на основании перемещения)</Value>
+				<Value xsi:type="xs:string">Настроить</Value>
+				<Value xsi:type="xs:string">Перемещение товаров</Value>
+				<Value xsi:type="xs:string">ПеремещениеТоваров</Value>
+				<Value xsi:type="xs:string">BP925690bc-f090-416d-b0cb-aa778f74dffc</Value>
+				<Value xsi:type="xs:string">{"#",3c72ff56-7e04-4385-bc03-92d4bd6c351c,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxmaWx0ZXI+
+DQoJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQk8
+bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Qn9GA0L7QstC10LTQtdC9PC9s
+ZWZ0Pg0KCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4N
+CgkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJ
+CTwvaXRlbT4NCgk8L2ZpbHRlcj4NCgk8ZGF0YVBhcmFtZXRlcnM+DQoJCTxkY3Nj
+b3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQk8
+ZGNzY29yOnBhcmFtZXRlcj7Qk9C70YPQsdC40L3QsNCe0YLQsdC+0YDQsDwvZGNz
+Y29yOnBhcmFtZXRlcj4NCgkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmRl
+Y2ltYWwiPjEwPC9kY3Njb3I6dmFsdWU+DQoJCTwvZGNzY29yOml0ZW0+DQoJPC9k
+YXRhUGFyYW1ldGVycz4NCjwvU2V0dGluZ3M+}
+}</Value>
+				<Value xsi:type="xs:string">Только конструктор</Value>
+				<Value xsi:type="xs:string"/>
+			</row>
+			<row>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:string">Реализация товаров (на основании "Реализации Товаров и Услуг")</Value>
+				<Value xsi:type="xs:string">Настроить</Value>
+				<Value xsi:type="xs:string">Реализация товаров и услуг</Value>
+				<Value xsi:type="xs:string">РеализацияТоваровУслуг</Value>
+				<Value xsi:type="xs:string">BP645cbe82334d465f933bc836ad2a4f92</Value>
+				<Value xsi:type="xs:string">{"#",3c72ff56-7e04-4385-bc03-92d4bd6c351c,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxmaWx0ZXI+
+DQoJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQk8
+bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Qn9GA0L7QstC10LTQtdC9PC9s
+ZWZ0Pg0KCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4N
+CgkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJ
+CTwvaXRlbT4NCgk8L2ZpbHRlcj4NCgk8ZGF0YVBhcmFtZXRlcnM+DQoJCTxkY3Nj
+b3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQk8
+ZGNzY29yOnBhcmFtZXRlcj7Qk9C70YPQsdC40L3QsNCe0YLQsdC+0YDQsDwvZGNz
+Y29yOnBhcmFtZXRlcj4NCgkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmRl
+Y2ltYWwiPjEwPC9kY3Njb3I6dmFsdWU+DQoJCTwvZGNzY29yOml0ZW0+DQoJPC9k
+YXRhUGFyYW1ldGVycz4NCjwvU2V0dGluZ3M+}
+}</Value>
+				<Value xsi:type="xs:string">Только конструктор</Value>
+				<Value xsi:type="xs:string"/>
+			</row>
+			<row>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:string">Реализация товаров (на основании "Заказа покупателя")</Value>
+				<Value xsi:type="xs:string">Настроить</Value>
+				<Value xsi:type="xs:string">Заказ покупателя</Value>
+				<Value xsi:type="xs:string">ЗаказПокупателя</Value>
+				<Value xsi:type="xs:string">BP85abb82d6f2e46309be59b793da1ff4e</Value>
+				<Value xsi:type="xs:string">{"#",3c72ff56-7e04-4385-bc03-92d4bd6c351c,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxmaWx0ZXI+
+DQoJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJCQk8
+bGVmdCB4c2k6dHlwZT0iZGNzY29yOkZpZWxkIj7Qn9GA0L7QstC10LTQtdC9PC9s
+ZWZ0Pg0KCQkJPGNvbXBhcmlzb25UeXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4N
+CgkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvcmlnaHQ+DQoJ
+CTwvaXRlbT4NCgk8L2ZpbHRlcj4NCgk8ZGF0YVBhcmFtZXRlcnM+DQoJCTxkY3Nj
+b3I6aXRlbSB4c2k6dHlwZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQk8
+ZGNzY29yOnBhcmFtZXRlcj7Qk9C70YPQsdC40L3QsNCe0YLQsdC+0YDQsDwvZGNz
+Y29yOnBhcmFtZXRlcj4NCgkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmRl
+Y2ltYWwiPjEwPC9kY3Njb3I6dmFsdWU+DQoJCTwvZGNzY29yOml0ZW0+DQoJPC9k
+YXRhUGFyYW1ldGVycz4NCjwvU2V0dGluZ3M+}
+}</Value>
+				<Value xsi:type="xs:string">Только конструктор</Value>
+				<Value xsi:type="xs:string"/>
+			</row>
+		</Value>
+	</Property>
+	<Property name="_ИмяРазделаНастройки_">
+		<Value xsi:type="xs:string">НастройкаОтборовУзла</Value>
+	</Property>
+</Structure>
