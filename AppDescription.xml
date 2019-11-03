@@ -1,0 +1,14 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <SignedInfo>
+    <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+    <Reference URI="#sign">
+      <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <DigestValue>czjT1PGlwpWG4qIp3SbNbN2iKw8=</DigestValue>
+    </Reference>
+  </SignedInfo>
+  <SignatureValue>uF2KgXrLRdeBCahhEmuVLbdnSDBnCvr+TiC4lfCKFzxk2Ua7qFlDiryXi4cJRHjAo0ghyzbmjSprguxmXHWVhT91nt4dFy3+NI7gnb1Ty9VCB5KTCFUuuTKxppiBupQHlwUxtWhzuBSAjw39RRQDUN8Umc05fgE1gi7iLoOnI/Q=</SignatureValue>
+  <Object Id="sign">
+    <AppDescription xmlns:clr="http://schemas.cleverence.ru/clr" appId="9B3E6ADA-9AD3-4928-8F96-10455B03EC94" appVersion="1.0.2.85" appServerVersion="3.0.0.2699" minPlatformVersion="3.0.46.46642" clientVersion="3.0.0.100" comment="Основная поставка Склад 15" configId="563E5A43-8E07-4D05-A36B-046D53B821A1" onlineCallsSupported="True" appLink="http://www.cleverence.ru/software/mobile-smarts/wh15/" aboutLicLink="http://www.cleverence.ru/software/mobile-smarts/wh15/#spec" appVersionsLink="http://www.cleverence.ru/software/mobile-smarts/wh15/#spec" appSupportLink="https://www.cleverence.ru/support/category:673/" xmlns="" />
+  </Object>
+</Signature>

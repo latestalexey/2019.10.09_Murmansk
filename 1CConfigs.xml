@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  <Configs>
+
+  <Config id="WMS_TL" name="WMS 1С: Total Logistic" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "wmstl.xml" OnlineSupport="True" OneCConfigName = "TotalLog" OneCConfigVersion="">
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="ERP22" name="1С: ERP Управление предприятием 2.2" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut112.xml" OnlineSupport="True" OneCConfigName = "УправлениеПредприятием" OneCConfigVersion="2.2">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="ERP24" name="1С: ERP Управление предприятием 2.4" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut114.xml" OnlineSupport="True" OneCConfigName = "УправлениеПредприятием" OneCConfigVersion="2.4">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="KA11" name="1С: Комплексная автоматизация 1.1" MainFilePath="КлеверенсТСД_ОбычныеФормы.epf" SettingsFile = "ut103.xml" OnlineSupport="True" OneCConfigName = "КомплекснаяАвтоматизация" OneCConfigVersion="1.1">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config> 
+
+  <Config id="KA20" name="1С: Комплексная автоматизация 2.0" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut112.xml" OnlineSupport="True" OneCConfigName = "КомплекснаяАвтоматизация" OneCConfigVersion="2.0">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+ 
+  <Config id="KA22" name="1С: Комплексная автоматизация 2.2" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut112.xml" OnlineSupport="True" OneCConfigName = "КомплекснаяАвтоматизация" OneCConfigVersion="2.2">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="KA24" name="1С: Комплексная автоматизация 2.4" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut114.xml" OnlineSupport="True" OneCConfigName = "КомплекснаяАвтоматизация" OneCConfigVersion="2.4">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>  
+  
+  <Config id="UNF16" name="1С: Управление нашей (небольшой) фирмой 1.6" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "unf16.xml" OnlineSupport="True" OneCConfigName = "УправлениеНебольшойФирмой" OneCConfigVersion="1.6">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="UPP13" name="1С: Управление производственным предприятием 1.3" MainFilePath="КлеверенсТСД_ОбычныеФормы.epf" SettingsFile = "ut103.xml" OnlineSupport="True" OneCConfigName = "УправлениеПроизводственнымПредприятием" OneCConfigVersion="1.3">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+  <Config id="UTKZ22" name="1С: Управление торговлей для Казахстана 2.2" MainFilePath="КлеверенсТСД_ОбычныеФормы.epf" SettingsFile = "utkz22.xml" OnlineSupport="True" OneCConfigName = "УправлениеТорговлейДляКазахстана" OneCConfigVersion="2.2">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+  <Config id="UTKZ32" name="1С: Управление торговлей для Казахстана 3.2" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut112.xml" OnlineSupport="True" OneCConfigName = "УправлениеТорговлейДляКазахстана" OneCConfigVersion="3.2">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+  <Config id="UTBEL33" name="1С: Управление торговлей для Беларуси 3.3" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut112.xml" OnlineSupport="True" OneCConfigName = "УправлениеТорговлейДляБеларуси" OneCConfigVersion="3.3">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>   
+  
+  <Config id="UT103" name="1С: Управление торговлей 10.3" MainFilePath="КлеверенсТСД_ОбычныеФормы.epf" SettingsFile = "ut103.xml" OnlineSupport="True" OneCConfigName = "УправлениеТорговлей" OneCConfigVersion="10.3">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="UT112" name="1С: Управление торговлей 11.2" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut112.xml" OnlineSupport="True" OneCConfigName = "УправлениеТорговлей" OneCConfigVersion="11.2">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+  <Config id="UT113" name="1С: Управление торговлей 11.3" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut112.xml" OnlineSupport="True" OneCConfigName = "УправлениеТорговлей" OneCConfigVersion="11.3">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="UT114" name="1С: Управление торговлей 11.4" MainFilePath="КлеверенсТСД_УправляемыеФормы.epf" SettingsFile = "ut114.xml" OnlineSupport="True" OneCConfigName = "УправлениеТорговлей" OneCConfigVersion="11.4">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+  <Config id="UTPKZ20" name="1С: Управление торговым предприятием для Казахстана 2.0" MainFilePath="КлеверенсТСД_ОбычныеФормы.epf" SettingsFile = "ut103.xml" OnlineSupport="True" OneCConfigName = "УправлениеТорговымПредприятиемДляКазахстана" OneCConfigVersion="2.0">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="0" name="Самостоятельная интеграция с 1С" MainFilePath="" SettingsFile = "" OnlineSupport="True">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+  <Config id="SAPR3" name="Самостоятельная интеграция с SAP R/3 через REST/OLE/TXT" MainFilePath="TXT_CSV" SettingsFile = "" OnlineSupport="True">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+  <Config id="MSAX" name="Самостоятельная интеграция с Microsoft Dynamics AX (Axapta) через REST/OLE/TXT" MainFilePath="TXT_CSV" SettingsFile = "" OnlineSupport="True">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="MSSQL" name="Самостоятельная интеграция с MSSQL через REST/OLE/TXT" MainFilePath="TXT_CSV" SettingsFile = "" OnlineSupport="True">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+  
+  <Config id="REST" name="Интеграция через REST API" MainFilePath="TXT_CSV" SettingsFile = "" BatchSupport = "False" OnlineSupport="True">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+  <Config id="TXT_CSV" name="Работа через TXT, CSV, Excel (БЕЗ ОНЛАЙН)" MainFilePath="TXT_CSV" SettingsFile = "" OnlineSupport="False">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>	
+  
+  <Config id="OLECOM" name="Интеграция через OLE/COM" MainFilePath="TXT_CSV" SettingsFile = "" OnlineSupport="True">
+    <Support>WH15Mini</Support>
+    <Support>WH15Standard</Support>
+    <Support>WH15Adv</Support>
+    <Support>WH15Full</Support>
+  </Config>
+
+ </Configs>

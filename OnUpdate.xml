@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extract>
+  <item>Client Installer</item>
+  <item>Documentation</item>
+  <item>Обработки 1С</item>
+  <item>LabelTemplates</item>
+  <item>XlsCsv</item>
+
+  <item>1CConfigs.xml</item>  
+  <item>AppDescription.xml</item>
+  <item>Список изменений</item>
+  <item>appres.resources</item>
+  <item>Documents\Cleverence.Warehouse.Environment.xml</item>
+  <item>Documents\Cleverence.Warehouse.PalletsBook.xml</item>
+  <item>Documents\cres.resources</item>
+  <item>Documents\egares.resources</item>
+</extract>
