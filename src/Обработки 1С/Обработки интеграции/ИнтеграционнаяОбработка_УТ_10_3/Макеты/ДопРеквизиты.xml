@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>ДопРеквизиты</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПродавца</dataPath>
+				<field>АдресПродавца</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Адрес продавца</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИмяПоставщика</dataPath>
+				<field>ИмяПоставщика</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Имя поставщика</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИмяПродавца</dataPath>
+				<field>ИмяПродавца</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Имя продавца</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипНоменклатуры</dataPath>
+				<field>ТипНоменклатуры</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Тип номенклатуры</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПоставщика</dataPath>
+				<field>АдресПоставщика</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Адрес поставщика</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтранаПроизводства</dataPath>
+				<field>СтранаПроизводства</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Страна производства</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТоварнаяГруппа</dataPath>
+				<field>ТоварнаяГруппа</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Товарная группа</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДопИнформация</dataPath>
+				<field>ДопИнформация</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Доп информация</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИмяПроизводителя</dataPath>
+				<field>ИмяПроизводителя</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Имя производителя</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдТовара_GUID</dataPath>
+				<field>ИдТовара_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Номенклатура - ссылка</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МаркаБренд</dataPath>
+				<field>МаркаБренд</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Марка бренд</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДвоичныеДанныеИзображения</dataPath>
+				<field>ДвоичныеДанныеИзображения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Двоичные данные изображения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Номенклатура.Ссылка КАК ИдТовара_GUID,
+	Номенклатура.Наименование КАК ДопИнформация,
+	"" КАК ИмяПродавца,
+	"" КАК АдресПродавца,
+	"" КАК СтранаПроизводства,
+	ПРЕДСТАВЛЕНИЕ(Номенклатура.Производитель) КАК ИмяПроизводителя,
+	ПРЕДСТАВЛЕНИЕ(Номенклатура.ОсновнойПоставщик) КАК ИмяПоставщика,
+	"" КАК АдресПоставщика,
+	ПРЕДСТАВЛЕНИЕ(Номенклатура.ВидНоменклатуры) КАК ТипНоменклатуры,
+	ПРЕДСТАВЛЕНИЕ(ЕСТЬNULL(Номенклатура.Родитель,"")) КАК ТоварнаяГруппа,
+	"" КАК МаркаБренд,	
+	ЕСТЬNULL(Номенклатура.ОсновноеИзображение.Хранилище,"") КАК ДвоичныеДанныеИзображения
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	НЕ Номенклатура.ПометкаУдаления</query>
+		</dataSet>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>ИмяПроизводителя</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>АдресПоставщика</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>АдресПродавца</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДопИнформация</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИдТовара_GUID</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИмяПоставщика</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИмяПродавца</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>МаркаБренд</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СтранаПроизводства</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ТипНоменклатуры</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ТоварнаяГруппа</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДвоичныеДанныеИзображения</field>
+		</item>
+	</selection>
+	<outputParameters/>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>

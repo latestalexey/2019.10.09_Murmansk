@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>Остатки</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<useRestriction>
+					<condition>true</condition>
+				</useRestriction>
+				<attributeUseRestriction>
+					<condition>true</condition>
+				</attributeUseRestriction>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Склад</dataPath>
+				<field>Склад</field>
+				<useRestriction>
+					<condition>true</condition>
+				</useRestriction>
+				<attributeUseRestriction>
+					<condition>true</condition>
+				</attributeUseRestriction>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументРезерва</dataPath>
+				<field>ДокументРезерва</field>
+				<useRestriction>
+					<condition>true</condition>
+				</useRestriction>
+				<attributeUseRestriction>
+					<condition>true</condition>
+				</attributeUseRestriction>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Качество</dataPath>
+				<field>Качество</field>
+				<useRestriction>
+					<condition>true</condition>
+				</useRestriction>
+				<attributeUseRestriction>
+					<condition>true</condition>
+				</attributeUseRestriction>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ХарактеристикаНоменклатуры</dataPath>
+				<field>ХарактеристикаНоменклатуры</field>
+				<useRestriction>
+					<condition>true</condition>
+				</useRestriction>
+				<attributeUseRestriction>
+					<condition>true</condition>
+				</attributeUseRestriction>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СерияНоменклатуры</dataPath>
+				<field>СерияНоменклатуры</field>
+				<useRestriction>
+					<condition>true</condition>
+				</useRestriction>
+				<attributeUseRestriction>
+					<condition>true</condition>
+				</attributeUseRestriction>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдНоменклатуры_GUID</dataPath>
+				<field>ИдНоменклатуры_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ссылка - Номенклатура</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдХарактеристики_GUID</dataPath>
+				<field>ИдХарактеристики_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ид характеристики GUID</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдСерии_GUID</dataPath>
+				<field>ИдСерии_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ид серии GUID</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Марка</dataPath>
+				<field>Марка</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Марка</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдСклада_GUID</dataPath>
+				<field>ИдСклада_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ид склада GUID</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдЯчейки_GUID</dataPath>
+				<field>ИдЯчейки_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ид ячейки GUID</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдТранспортнойУпаковки_GUID</dataPath>
+				<field>ИдТранспортнойУпаковки_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ид транспортной упаковки GUID</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдЕдиницыИзмерения_GUID</dataPath>
+				<field>ИдЕдиницыИзмерения_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ид единицы измерения GUID</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СерийныйНомер</dataPath>
+				<field>СерийныйНомер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Серийный номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоВНаличии</dataPath>
+				<field>КоличествоВНаличии</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Количество в наличии</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоВРезерве</dataPath>
+				<field>КоличествоВРезерве</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Количество в резерве</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоКРазмещению</dataPath>
+				<field>КоличествоКРазмещению</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Количество к размещению</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КодТовара</dataPath>
+				<field>КодТовара</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Код товара</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИдТовара_GUID</dataPath>
+				<field>ИдТовара_GUID</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ид товара GUID</d5p1:content>
+					</d5p1:item>
+				</title>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВложенныйЗапрос.Склад КАК ИдСклада_GUID,
+	"" КАК ИдЯчейки_GUID,
+	"" КАК ИдТранспортнойУпаковки_GUID,
+	ВложенныйЗапрос.Номенклатура КАК ИдТовара_GUID,
+	ВложенныйЗапрос.Номенклатура.ЕдиницаХраненияОстатков КАК ИдЕдиницыИзмерения_GUID,
+	ВложенныйЗапрос.Характеристика КАК ИдХарактеристики_GUID,
+	ВложенныйЗапрос.Серия КАК ИдСерии_GUID,
+	"" КАК СерийныйНомер,
+	"" КАК Марка,
+	СУММА(ВложенныйЗапрос.Количество) КАК КоличествоВНаличии,
+	СУММА(ВложенныйЗапрос.Резерв) КАК КоличествоВРезерве,
+	0 КАК КоличествоКРазмещению,
+	"" КАК КодТовара
+ИЗ
+	(ВЫБРАТЬ
+		ТоварыНаСкладах.ХарактеристикаНоменклатуры КАК Характеристика,
+		ТоварыНаСкладах.КоличествоОстаток КАК Количество,
+		0 КАК Резерв,
+		ТоварыНаСкладах.Склад КАК Склад,
+		ТоварыНаСкладах.Номенклатура КАК Номенклатура,
+		ТоварыНаСкладах.СерияНоменклатуры КАК Серия
+	ИЗ
+		РегистрНакопления.ТоварыНаСкладах.Остатки(, ) КАК ТоварыНаСкладах
+	ГДЕ
+		ТоварыНаСкладах.КоличествоОстаток &gt; 0
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		ТоварыВРезерве.ХарактеристикаНоменклатуры,
+		0,
+		ТоварыВРезерве.КоличествоОстаток,
+		ТоварыВРезерве.Склад,
+		ТоварыВРезерве.Номенклатура,
+		ТоварыВРезерве.СерияНоменклатуры
+	ИЗ
+		РегистрНакопления.ТоварыВРезервеНаСкладах.Остатки(, ) КАК ТоварыВРезерве
+	ГДЕ
+		ТоварыВРезерве.КоличествоОстаток &gt; 0
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		ТоварыВРознице.ХарактеристикаНоменклатуры,
+		ТоварыВРознице.КоличествоОстаток,
+		0,
+		ТоварыВРознице.Склад,
+		ТоварыВРознице.Номенклатура,
+		ТоварыВРознице.СерияНоменклатуры
+	ИЗ
+		РегистрНакопления.ТоварыВРознице.Остатки(, ) КАК ТоварыВРознице
+	ГДЕ
+		ТоварыВРознице.КоличествоОстаток &gt; 0) КАК ВложенныйЗапрос
+{ГДЕ
+	ВложенныйЗапрос.Номенклатура.* КАК ИдНоменклатуры_GUID}
+
+СГРУППИРОВАТЬ ПО
+	ВложенныйЗапрос.Склад,
+	ВложенныйЗапрос.Характеристика,
+	ВложенныйЗапрос.Номенклатура,
+	ВложенныйЗапрос.Серия,
+	ВложенныйЗапрос.Номенклатура.ЕдиницаХраненияОстатков</query>
+		</dataSet>
+		<parameter>
+			<name>Период</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Период</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>ИдЕдиницыИзмерения_GUID</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИдТовара_GUID</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИдСерии_GUID</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИдСклада_GUID</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИдТранспортнойУпаковки_GUID</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИдХарактеристики_GUID</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ИдЯчейки_GUID</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КодТовара</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КоличествоВНаличии</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КоличествоВРезерве</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КоличествоКРазмещению</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Марка</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СерийныйНомер</field>
+		</item>
+	</selection>
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ИдЕдиницыИзмерения_GUID</left>
+			<comparisonType>Equal</comparisonType>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ИдНоменклатуры_GUID</left>
+			<comparisonType>Equal</comparisonType>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ИдСерии_GUID</left>
+			<comparisonType>Equal</comparisonType>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ИдСклада_GUID</left>
+			<comparisonType>Equal</comparisonType>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ИдТранспортнойУпаковки_GUID</left>
+			<comparisonType>Contains</comparisonType>
+			<right xsi:type="xs:string"/>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ИдХарактеристики_GUID</left>
+			<comparisonType>Equal</comparisonType>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ИдЯчейки_GUID</left>
+			<comparisonType>Contains</comparisonType>
+			<right xsi:type="xs:string"/>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">КодТовара</left>
+			<comparisonType>Contains</comparisonType>
+			<right xsi:type="xs:string"/>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">КоличествоВНаличии</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="xs:decimal">0</right>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">КоличествоВРезерве</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="xs:decimal">0</right>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">КоличествоКРазмещению</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="xs:decimal">0</right>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Марка</left>
+			<comparisonType>Contains</comparisonType>
+			<right xsi:type="xs:string"/>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">СерийныйНомер</left>
+			<comparisonType>Contains</comparisonType>
+			<right xsi:type="xs:string"/>
+		</item>
+	</filter>
+	<outputParameters/>
+	<item xsi:type="StructureItemGroup">
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>
